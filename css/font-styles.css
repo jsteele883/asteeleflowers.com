@@ -1,0 +1,39 @@
+/* Fonts */
+
+h1 {
+  font-family: 'Raleway', Arial, Serif;
+  color: #ffffff;
+}
+
+h3 {
+  color:#00A299;
+  font-weight:normal;
+  font-family: 'Raleway', Arial, Serif;
+  font-size: 1.7em;
+}
+
+p {
+  color:#5f6062;
+  font-family: 'Raleway', Arial, Serif;
+}
+
+#bio p {
+  font-size: 12px;
+}
+
+li {
+  font-family: 'Raleway', Arial, Serif;
+}
+
+.navbar-default .navbar-brand {
+  color:#00A299;
+  font-family: 'Raleway', Arial, Serif;
+}
+
+.jumbotron p {
+  font-size: 1.4em;
+}
+
+label {
+  font-family: 'Raleway', Arial, Serif;
+}

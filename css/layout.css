@@ -1,0 +1,392 @@
+/*
+=====================================================================
+*   asteeleflowers style sheet
+
+=====================================================================
+
+   TOC:
+   a. General Styles
+   b. Header Styles
+   c. About Section
+   d. Image Links Section
+   e. Gallery Section
+   f. Contact Section
+   i. Footer
+
+   ===================================================================== */
+
+   /* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body {
+   padding-top: 0px;
+   padding-bottom: 60px;
+   background-image:url(../images/background-new.png);
+}
+
+/* ------------------------------------------------------------------ */
+/* b. Header Styles
+/* ------------------------------------------------------------------ */
+
+.navbar-wrapper {
+   position: fixed;
+   top: 0;
+   right: 0;
+   width: 100% !important;
+   left: 0;
+   z-index: 20;
+   background-color: #ffffff;
+   border-top: solid 15px #00A299;
+   border-bottom: solid 3px #00A299;
+}
+
+#header {
+   background-color: #ffffff;
+   border-top: solid 15px #00A299;
+   border-bottom: solid 3px #00A299;
+}
+
+.navbar .nav li a {
+   font-family: 'Open Sans', Arial, Serif;
+   font-weight: normal;
+   text-transform: uppercase;
+}
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+.navbar .navbar-inner {
+   padding: 0;
+}
+
+.masthead {
+   text-align: center;
+}
+.navbar .nav {
+   margin: 0;
+   display: table;
+   width: 100%;
+}
+.navbar .nav li {
+
+   width: 1%;
+   float: none;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.navbar .nav li a {
+   font-weight: bold;
+   text-align: center;
+   background: none;
+   color: #5f6062;
+   transition: all 0.3s ease;
+}
+
+.navbar .nav li a .active {
+   color: #8ed9ad;
+}
+
+.nav-justified {
+   text-align: center;
+}
+
+.nav-justified > li > a {
+   color: #2f2f2f;
+   font-size: 12px;
+   display:inline-block;
+   vertical-align:middle;
+}
+
+.nav-justified > li:last-child {
+   border-right: 0;
+}
+
+/* ------------------------------------------------------------------ */
+/* c. About Section
+/* ------------------------------------------------------------------ */
+
+.col-md-4 img {
+   width: 100%;
+   padding-bottom: 10px;
+}
+
+#jumbotron .col-md-4 {
+   width: 50%;
+   position:relative;
+}
+
+.jumbotron .col-md-6 img {
+   width: 250px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius:100%;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+   margin: 130px 0;
+   text-align: left;
+   background-color: #f4f4f4;
+   margin-top: 110px;
+   margin-bottom: 10px;
+   margin-left: 20px;
+   margin-right:20px;
+}
+.jumbotron h1 {
+   font-size: 100px;
+   line-height: 1;
+}
+.jumbotron .lead {
+   font-size: 24px;
+   line-height: 1.25;
+}
+.jumbotron .btn {
+   font-size: 21px;
+   padding: 14px 24px;
+}
+
+.jumbotron .col-md-8 {
+   width:50%;
+}
+
+.jumbotron .col-md-8 img {
+   max-width: 100%;
+   width: 250px;
+   border-radius:100%;
+}
+
+.body .container {
+   padding-top: 20px;
+}
+
+/* Supporting marketing content */
+.marketing {
+   margin: 60px 0;
+}
+.marketing p + h4 {
+   margin-top: 28px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. Image Links Section
+/* ------------------------------------------------------------------ */
+
+/*Images with Button Overlay*/
+
+.buttonHolder { 
+   position: absolute;
+   text-align: center;
+   bottom:40px;
+   right:0;
+   left:0;
+}
+
+.col-md-4 img {
+   width: 100%;
+   padding-bottom: 10px;
+   -webkit-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+
+
+
+#jumbotron .col-md-4 {
+   width: 50%;
+   position:relative;
+}
+
+
+.jumbotron .btn {
+   font-size: 16px;
+   padding: 10px 30px;
+   border-radius: 0px;
+}
+
+.btn-info {
+   border:none;
+}
+
+#button1 {
+   background-color:#00A299;
+}
+
+#button2 {
+   background-color: #B1DEFF;
+}
+
+#button3 {
+   background-color: #FD7D75;
+}
+
+.col-md-4:hover img {
+   opacity: 0.4;
+   filter: alpha(opacity=40);
+}
+
+.col-md-4:hover .btn-info, .col-md-4:hover #button1, .col-md-4:hover #button2, .col-md-4:hover #button3{
+   background-color:#fff;
+   color:#585858;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. Gallery Section
+/* ------------------------------------------------------------------ */
+
+/* Thumbnail */
+
+.thumbnailContainer {
+   position: relative;
+}
+
+.iconContainer {
+   position: absolute;
+   text-align: right;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   padding-right: 0px;
+   padding-bottom: 2px;
+}
+
+.iconContainer i {
+   margin-right: 10px;
+   color: #cecece;
+   transition: all 0.3s ease;
+}
+
+.iconContainer i:hover {
+   color: #00A299;
+}
+
+.col-md-4 img {
+   padding-bottom: 20px;
+}
+
+
+
+
+/* Carousel */
+#myCarousel {
+   margin-top: 100px;
+}
+
+.carousel-linked-nav,
+.item img {
+   display: block; 
+   margin: 0 auto;
+}
+
+.carousel-linked-nav {
+   width: 120px;
+   margin-bottom: 20px;   
+}
+
+.carousel-inner {
+   height: 480px;
+}
+
+.carousel-control.right, .carousel-control.left  {
+   background-image: none;
+}
+
+.carousel-close {
+   position: absolute;
+   bottom: 0px;
+   left: 50%;
+   z-index: 15;
+   width: 60%;
+   padding-left: 0;
+   margin-left: -30%;
+   text-align: center;
+   list-style: none;
+}
+
+.carousel-close i {
+   color:#fff;
+}
+
+.carousel-close i:focus, .carousel-close i:hover {
+   color: #fff;
+   text-decoration: none;
+   outline: 0;
+   opacity: .9;
+}
+
+#carousel {
+   height: 480px;
+}
+
+/* ------------------------------------------------------------------ */
+/* i. Contact Section
+/* ------------------------------------------------------------------ */
+
+#contact-form {
+   text-align:center;
+}
+
+form {
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+.footer {
+   position: absolute;
+   width: 100%;
+   height: 120px;
+   background-color: #ffffff;
+   border-top: solid 3px #00A299;
+}
+
+.footer .container {
+   width: auto;
+   padding: 0 15px;
+   margin-right: auto;
+   margin-left: auto;
+   padding-top: 20px;
+}
+
+/* Custom container */
+.container {
+   margin: 0 auto;
+   max-width: 1000px;
+}
+.container > hr {
+   margin: 0 auto;
+}
+
+
+
+#social {
+   text-align: center;
+}
+
+.fa-stack-1x {
+   color:white;
+   transition: all 0.3s ease;
+}
+
+.fa-stack-1x:hover {
+   color: #00A299;
+} 
+
+.icon-facebook {
+  color:#00A299;
+}
+
+.icon-facebook:hover,.icon-twitter:hover, .icon-gplus:hover {
+  color:#ffffff;
+}
+
+.icon-twitter {
+ color:#B1DEFF;
+}
+
+.icon-gplus{
+ color:#FD7D75;
+}
+
