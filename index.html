@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/media-queries.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
 
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -31,24 +32,30 @@
     </head>
 
     <body>
-
-      <nav class="navbar navbar-default navbar-fixed-top" id="header" role="navigation">
-        <div class="container">
+    <div class="container" id="header-background"> 
+   
+      <nav class="navbar navbar-default" id="header" role="navigation">
+        <div class="header-container">
           <div class="navbar-header">
+          
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="index.html">Amanda Steele Flowers</a>
+            
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav nav-justified">
+            <div id="left-nav" class="col-md-6">
               <li class="active"><a href="index.html">Home</a></li>
               <li><a href="events.html">Events</a></li>
+              </div>
+              <div id="right-nav" class="col-md-6">             
               <li><a href="portfolio.html">Portfolio</a></li>
               <li><a href="contact.html">Contact</a></li>
+              </div>
             </ul>
           </li>
         </ul>
@@ -56,68 +63,85 @@
       </div><!--/.nav-collapse -->
     </div>
   </nav>
+  </div>
 
   
 
-  <div class="body">
-    <div class="container">
+
 
 
       <!-- Jumbotron -->
-      <div class="jumbotron">
-        <div class="row">
-         <div class="col-md-6" id="hero">
-          <img src="https://s3-eu-west-1.amazonaws.com/www.asteeleflowers.com/Images/hero.jpg">
+      <div class="jumbotron" id="hero">
+        <div class="container" >
+         <div class="col-md-6">
+         <img src="images/hero.jpg" width="100%">
         </div>
-        <div class="col-md-6">       
+        <div class="col-md-6">
+          <div class="intro">       
           <h3>About Me</h3>
+          </br>
           <p>A Constance Spry trained freelance florist with over thirty years experience. I specialise in wedding flowers and especially enjoy making wedding bouquets.</p>
+          </br>
+          <p>Feel free to click around and find out some more about my work!</p>
+         </br>
+          </div><img src="images/flower-icon.png" >
         </div>
       </div>
-      
-      <hr>
+      </div>
+
 
       <!-- Example row of columns -->
+      <div class="jumbotron" id="products">
+      <div class="container">
       <div class="row">
-        <h3 align="center">Products<h3>
+        <h3 align="center" class="heading">Products</h3>
           <div class="row-fluid">
-            <div class="col-md-4">
-              <img src="https://s3-eu-west-1.amazonaws.com/www.asteeleflowers.com/Images/Flowers/buttonholes.jpg">
+            <div class="col-md-4" id="main-images">
+              <img src="images/buttons-home.jpg">
               <span class="buttonHolder">
-                <a class="btn btn-info" id="button1" href="https://s3-eu-west-1.amazonaws.com/asteeleflowers.co.uk/website/html/website/html/Portfolio.html" role="button">Buttons</a>
+                <a class="btn btn-info" id="button1" href="portfolio.html#buttons" role="button">Buttons</a>
               </span>
             </div>
-            <div class="col-md-4">
-              <img src="https://s3-eu-west-1.amazonaws.com/www.asteeleflowers.com/Images/Flowers/bouquetshome.jpg">
+            <div class="col-md-4" id="main-images">
+              <img src="images/bouquets-home.jpg">
               <span class="buttonHolder">
-                <a class="btn btn-info" id="button2" href="https://s3-eu-west-1.amazonaws.com/asteeleflowers.co.uk/website/html/website/html/Portfolio.html#anchor-bouquets" role="button">Bouquets</a>
+                <a class="btn btn-info" id="button2" href="portfolio.html" role="button">Bouquets</a>
               </span>
 
             </div>
-            <div class="col-md-4">
-              <img src="https://s3-eu-west-1.amazonaws.com/www.asteeleflowers.com/Images/Flowers/Occassionshome.jpg">
+            <div class="col-md-4" id="main-images">
+              <img src="images/occasions-home.jpg">
               <span class="buttonHolder">
-                <a class="btn btn-info" id="button3" href="https://s3-eu-west-1.amazonaws.com/asteeleflowers.co.uk/website/html/website/html/events.html" role="button">Occassions</a>
+                <a class="btn btn-info" id="button3" href="events.html" role="button">Occassions</a>
               </span>
             </div>
           </div>
         </div>
-
+        </div>
         
-        <hr>
+        <div class="jumbotron">
+        <div class="container">
         <div class="row" id="bio">
-         <h3>Biography</h3>
-         <p>I have been a freelance florist for many years, designing and arranging flowers for weddings, parties and special events. I have an absolute passion for country flowers, foliage and design with a loose natural style.</p> 
+         <h3 align="center" class="heading">Biography</h3>
+          <div class="col-md-6">
+          <p>I have been a freelance florist for many years, designing and arranging flowers for weddings, parties and special events. I have an absolute passion for country flowers, foliage and design with a loose natural style.</p> 
          <p>
           I'm the third generation of flower people in my family. Legend has it that my Great Grandfather, who was the head gardener on a large estate in Hampstead, fully adorned with top hat and tails oversaw train carriages full of orchids being delivered to the big house for parties, allegedly a special railway siding had to be built! </p> 
           <p>Some of my earliest memories are of helping my tiny feisty Grandmother create fabulous, big, blowsy creations with armfuls of blossoms and twigs from her garden. She was never without her trusty trug and secateurs at the ready in preparation for decorating churches and parties around the county. She truly has been an inspiration to me throughout my life.</p>
           <p>
-            My own floral journey began in 1981 with the most amazingly comprehensive apprenticeship at the highly respected <a href="http://pulbrookandgould.co.uk/">Pulbrook and Gould</a> in Sloane Street. I was so lucky, weekly we used to have magical boxes of iridescent nerines, obscure beautiful foliages, tiny bunches of violets and garden roses that would miraculously appear at the back of the shop from 'a lady in the country'. Here I unearthed not only a real love for beautiful flowers and free flowing composition, but most importantly learnt the mechanics behind making gigantic flower arrangements for Westminster Cathedral through to tiny headdress's for toddler bridesmaids. The mechanics that go behind any flower design are the most important part of the job, once they are in place the rest is creative fun.</p>
+            My own floral journey began in 1981 with the most amazingly comprehensive apprenticeship at the highly respected <a href="http://pulbrookandgould.co.uk/">Pulbrook and Gould</a> in Sloane Street. I was so lucky, weekly we used to have magical boxes of iridescent nerines, obscure beautiful foliages, tiny bunches of violets and garden roses that would miraculously appear at the back of the shop from 'a lady in the country'.</p>        </div>
+        <div class="col-md-6">
+        <p>Here I unearthed not only a real love for beautiful flowers and free flowing composition, but most importantly learnt the mechanics behind making gigantic flower arrangements for Westminster Cathedral through to tiny headdress's for toddler bridesmaids. The mechanics that go behind any flower design are the most important part of the job, once they are in place the rest is creative fun.</p>
             <p>After three wonderful years at <a href="http://pulbrookandgould.co.uk/">Pulbrook and Gould</a> I moved to <a href="http://www.kennethturner.com/">Kenneth Turner Flowers</a>. It was the eighties in London! The designs just got bigger and wilder. After every Monday morning brainstorming sessions we got very creative! Sculptures of not only fabulous flowers, but breads, stones, garden tools, barbed wire, trees, box topiary and mosses used to appear out of the basement workroom hatch which was at pavement level, into the vans to be delivered all over London. It was a fabulous time. I even went to New York twice, once to decorate The Temple of Dendur in the Metropolitan Museum of Art, and the second time to topiary Bergdof Goodman's Windows for Christmas while snow gently fell around us.</p>
             <p>I've been working for myself for many years now designing flowers for weddings, parties, hotels and special events. I have an ever growing passion for seasonal country flowers and thrive on designing completely bespoke creations for each and every client to help them fulfil their own imaginations.</p>
+            </div>
           </div>
         </div>
       </div>
+      </div>
+      </div>
+      </div>
+
 
       <!-- /container -->
       <footer class="footer">

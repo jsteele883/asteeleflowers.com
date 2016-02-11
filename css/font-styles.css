@@ -1,39 +1,104 @@
 /* Fonts */
 
 h1 {
-  font-family: 'Raleway', Arial, Serif;
+  font-family: 'alegreyaregular', Arial, Serif;
   color: #ffffff;
 }
 
 h3 {
-  color:#00A299;
+  color:#38b9bd;
   font-weight:normal;
-  font-family: 'Raleway', Arial, Serif;
-  font-size: 1.7em;
+  font-family: 'alegreyaregular', Arial, Serif;
+  font-size: 2.1em;
+  letter-spacing:0.02rem;
 }
+
+.intro h3 {
+  color:#fff;
+  text-align: center;
+  vertical-align: center;
+}
+
+.intro p {
+ color:#fff;
+ text-align: center;
+ vertical-align: center;
+}
+
+.heading {
+  line-height:80px;
+}
+
+
+.navbar .nav li a {
+ font-family: 'lucida_sans_typewriterregular', Arial, Serif;
+ font-weight: normal;
+ text-transform: uppercase;
+ position: relative;
+}
+
+.navbar .nav li a:before{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #5f6062;
+  transition: width .6s cubic-bezier(.455, .03, .515, .955);
+}
+
+.navbar .nav li a:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background: #5f6062;
+  transition: width .6s cubic-bezier(.455, .03, .515, .955);
+}
+
+.navbar .nav li a:hover:before, .navbar .nav li a:hover:after{
+  width: 100%;
+}
+
+.btn-info {
+  color:#585858; 
+  font-family: 'alegreyaregular', Arial, Serif;
+  text-transform: uppercase;
+}
+
+
 
 p {
   color:#5f6062;
-  font-family: 'Raleway', Arial, Serif;
+  font-family: 'alegreyaregular', Arial, Serif;
+}
+
+a {
+  color: #7cccd2;
 }
 
 #bio p {
-  font-size: 12px;
+  font-size: 1.2em;
 }
 
 li {
-  font-family: 'Raleway', Arial, Serif;
+  font-family: 'alegreyaregular', Arial, Serif;
 }
 
-.navbar-default .navbar-brand {
-  color:#00A299;
-  font-family: 'Raleway', Arial, Serif;
-}
 
 .jumbotron p {
   font-size: 1.4em;
 }
 
 label {
-  font-family: 'Raleway', Arial, Serif;
+  font-family: 'alegreyaregular', Arial, Serif;
+}
+
+.counter {
+  font-family: 'alegreyaregular', Arial, Serif;
+  color: #cecece;
+  font-height: 18px;
 }
