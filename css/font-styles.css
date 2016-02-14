@@ -95,6 +95,8 @@ li {
 
 label {
   font-family: 'alegreyaregular', Arial, Serif;
+  color:#5f6062;
+  font-size: 1.2em;
 }
 
 .counter {

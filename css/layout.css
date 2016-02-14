@@ -387,6 +387,31 @@ form {
    padding-right: 10px;
 }
 
+#facebook-feed {
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+#form-column {
+   padding-bottom: 10px;
+}
+
+.btn-primary {
+   font-size: 18px;
+   padding: 10px 30px;
+   border-radius: 0px;
+}
+
+.btn {
+   background-color: #ffffff;
+   border-radius: 0px;
+   color:#585858; 
+   font-family: 'alegreyaregular', Arial, Serif;
+   text-transform: uppercase;
+   border: none;
+   transition: all 0.3s ease;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* i. Footer
