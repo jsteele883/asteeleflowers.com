@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/media-queries.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
+
+</style>
 
 
 
@@ -32,60 +35,70 @@
     </head>
 
     <body>
-  <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '490777127760739',
-      xfbml      : true,
-      version    : 'v2.5'
-    });
-  };
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId      : '490777127760739',
+            xfbml      : true,
+            version    : 'v2.5'
+          });
+        };
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+        (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+      </script>
 
-      <nav class="navbar navbar-default navbar-fixed-top" id="header" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Amanda Steele Flowers</a>
-          </div>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav nav-justified">
-              <li ><a href="index.html">Home</a></li>
-              <li><a href="events.html">Events</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li class="active"><a href="contact.html">Contact</a></li>
-            </ul>
-          </li>
-        </ul>
-        
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav>
+      <div class="container" id="header-background"> 
 
+        <nav class="navbar navbar-default" id="header" role="navigation">
+          <div class="header-container">
+            <div class="navbar-header">
+
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-justified">
+                <div id="left-nav" class="col-md-6">
+                  <li ><a href="index.html">Home</a></li>
+                  <li><a href="events.html">Events</a></li>
+                </div>
+                <div id="right-nav" class="col-md-6">             
+                  <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </div>
+              </ul>
+            </li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
 
   <div class="body">
-  <div class="container">
+    <div class="container">
+     <div class="col-md-12">
+      <!--small><i></i>Add alerts if form ok... success, else error.</i></small-->
+      <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent. (If form ok!)</strong></div>   
+      <div class="alert alert-danger"><span class="glyphicon glyphicon-alert"></span><strong> Error! Please check the inputs. (If form error!)</strong></div>
+    </div>
 
-      
-
-      <!-- Jumbotron -->
-      <div class="jumbotron">
+    <form role="form" action="" method="post" >
+      <div class="col-lg-6">
         <div class="row"  id="contact-form">
-        <h3>Do get in touch with any questions that you may have and I will get back to you as soon as I can.</h3>
-        <br></br>
+          <h3>Do get in touch with any questions that you may have and I will get back to you as soon as I can.</h3>
+          <br></br>
           <form action="https://script.google.com/macros/s/AKfycbwDWX_IuLJCheG7Q_z6j1B3teNBxnrv1-96BvYVJikgiV0H1Io/exec" id="gform" method="POST">
            <fieldset class="form-group">
             <label for="exampleInputEmail1">Email address</label>
@@ -105,52 +118,52 @@
             <label for="exampleTextarea">Get in touch:</label>
             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
           </fieldset>
-        <button type="submit" class="btn btn-primary" value="Send">Submit</button>
-      </form>
+          <button type="submit" class="btn btn-primary" value="Send">Submit</button>
+        </div>
+      </div>
+    </form>
+    <hr class="featurette-divider hidden-lg">
+    <div class="col-lg-5 col-md-push-1">
+      <div class="fb-page" data-href="https://www.facebook.com/amandasteeleflorist" data-tabs="timeline" data-width="380" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/amandasteeleflorist"><a href="https://www.facebook.com/amandasteeleflorist">Amanda Steele Flowers</a></blockquote></div>
     </div>
- 
- <hr>
-
-  <div class="row" id="contact-form">
-  
-    <div class="fb-page" data-href="https://www.facebook.com/amandasteeleflorist" data-tabs="timeline" data-width="380" data-height="400" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/amandasteeleflorist"><a href="https://www.facebook.com/amandasteeleflorist">Amanda Steele Flowers</a></blockquote></div>
   </div>
 </div>
-</div>
-</div>
 
 
 
-   <!-- /container -->
-   <footer class="footer">
-    <div class="container">
-     <div class="col-xs-6" id="contact">
-      <p>Contact me to request a quote:</p>
-      <p><strong>t:</strong>01572717757 </p>
-      <p><a>amandapetal1@btinternet.com</a></p>
-    </div>
-    <div class="col-xs-6" id="social">       
-     <ul class="list-inline">
-      <li><a href="#">
-        <span class="fa-stack fa-lg icon-facebook">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-facebook fa-stack-1x"></i>
-        </span>
-      </a></li>
-      <li><a href="#">
-        <span class="fa-stack fa-lg icon-twitter">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-twitter fa-stack-1x"></i>
-        </span>
-      </a></li>
-      <li><a href="#">
-        <span class="fa-stack fa-lg icon-gplus">
-          <i class="fa fa-square fa-stack-2x"></i>
-          <i class="fa fa-plus fa-stack-1x"></i>
-        </span>
-      </a></li>
-    </ul>      
+
+
+
+<!-- /container -->
+<footer class="footer">
+  <div class="container">
+   <div class="col-xs-6" id="contact">
+    <p>Contact me to request a quote:</p>
+    <p><strong>t:</strong>01572717757 </p>
+    <p><a href="mailto:amandapetal@petal1@btinternet.com">amandapetal1@btinternet.com</a></p>
   </div>
+  <div class="col-xs-6" id="social">       
+   <ul class="list-inline">
+    <li><a href="https://www.facebook.com/amandasteeleflorist/?fref=ts">
+      <span class="fa-stack fa-lg icon-facebook">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-facebook fa-stack-1x"></i>
+      </span>
+    </a></li>
+    <li><a href="https://www.instagram.com/amandasteeleflowers/">
+      <span class="fa-stack fa-lg icon-instagram">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-instagram fa-stack-1x"></i>
+      </span>
+    </a></li>
+    <li><a href="mailto:amandapetal@petal1@btinternet.com">
+      <span class="fa-stack fa-lg icon-inbox">
+        <i class="fa fa-square fa-stack-2x"></i>
+        <i class="fa fa-inbox fa-stack-1x"></i>
+      </span>
+    </a></li>
+  </ul>      
+</div>
 </div>
 </footer>
 
@@ -163,5 +176,5 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
-    </body>
-    </html>
+  </body>
+  </html>

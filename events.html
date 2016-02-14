@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/media-queries.css">
   <link rel="stylesheet" href="css/magnific-popup.css">
-  <style type="text/css">
+  <link rel="stylesheet" href="css/fonts/stylesheet.css" type="text/css" charset="utf-8" />
 
 </style>
 
@@ -35,110 +35,123 @@
 
     <body>
 
-      <nav class="navbar navbar-default navbar-fixed-top" id="header" role="navigation">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">Amanda Steele Flowers</a>
-          </div>
+      <div class="container" id="header-background"> 
 
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav nav-justified">
-              <li><a href="index.html">Home</a></li>
-              <li class="active"><a href="events.html">Events</a></li>
-              <li><a href="portfolio.html">Portfolio</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </li>
-        </ul>
+        <nav class="navbar navbar-default" id="header" role="navigation">
+          <div class="header-container">
+            <div class="navbar-header">
 
-      </div><!--/.nav-collapse -->
-    </div>
-  </nav>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
 
-  <!-- Jumbotron -->
-
-  <div id="carousel" class="collapse">
-    <div id="myCarousel" class="carousel slide">
-      <!-- Carousel items -->
-      <div class="carousel-inner">
-        <div class="active item">
-          <img src="https://s3-eu-west-1.amazonaws.com/www.asteeleflowers.com/Images/Flowers/Buttons/buttonhole1.jpg" />
-        </div>
-        <div class="item">
-          <img src="http://placehold.it/300x200/aaa&text=Item 2" />
-        </div>
-        <div class="item">
-          <img src="http://placehold.it/300x200/444&text=Item 3" />
-        </div>
-      </div>
-      <!-- Carousel nav -->
-      <a class="carousel-control left" href="#myCarousel" data-slide="prev" id="scrollButton"><i class="fa  fa-arrow-circle-left"></i></a>
-      <a class="carousel-control right" href="#myCarousel" data-slide="next" id="scrollButton"><i class="fa fa-arrow-circle-right"></i></a>
-    </div>
-
-  </div>
-</div>
-</div>
-
-
-<!-- Page Content -->
-<div class="container" id="gallery">
-
-  <div class="row">
-
-    <div class="col-lg-12">
-      <h1 class="page-header">Reception Flowers</h1>
-    </div>
-    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-      <div class="thumbnailContainer">
-        <a class="thumbnail" href="#" id="reveal">
-          <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
-          <div class="iconContainer">
-            <i class="fa fa-facebook"></i>
-            <i class="fa fa-heart-o"></i>
-            <a data-toggle="collapse" data-target="#carousel"><i class="fa fa-arrows-alt"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-        <div class="thumbnailContainer">
-          <a class="thumbnail" href="#" id="reveal">
-            <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
-            <div class="iconContainer">
-              <i class="fa fa-facebook"></i>
-              <i class="fa fa-heart-o"></i>
-              <a id="reveal"><i class="fa fa-arrows-alt"></i></a>
             </div>
-          </div>
-        </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav nav-justified">
+                <div id="left-nav" class="col-md-6">
+                  <li ><a href="index.html">Home</a></li>
+                  <li class="active"><a href="events.html">Events</a></li>
+                </div>
+                <div id="right-nav" class="col-md-6">             
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </div>
+              </ul>
+            </li>
+          </ul>
 
-        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-          <div class="thumbnailContainer">
-            <a class="thumbnail" href="#" id="reveal">
-              <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
-              <div class="iconContainer">
-                <i class="fa fa-facebook"></i>
-                <i class="fa fa-heart-o"></i>
-                <a id="reveal"><i class="fa fa-arrows-alt"></i></a>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+  </div>
+
+  <div class="body">
+
+
+    <div class="panel-group" id="accordion">
+      <!-- Section One -->
+      <div class="container" style="padding-top:0px">      
+        <div class="panel panel-default" id="panel1">
+          <div class="panel-heading">
+          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            <h1 class="panel-title">
+              Marquees
+              <i class="indicator glyphicon glyphicon-plus-sign  pull-right"></i>
+            </h1>
+            </a>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse">
+            <div class="panel-body">
+              <div id="myCarousel" class="carousel slide">
+                <div id="carousel">
+                  <div id="carousel-marquee" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-marquee" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-marquee" data-slide-to="1"></li>
+                      <li data-target="#carousel-marquee" data-slide-to="2"></li>
+                      <li data-target="#carousel-marquee" data-slide-to="3"></li>
+                      <li data-target="#carousel-marquee" data-slide-to="4"></li>
+                      <li data-target="#carousel-marquee" data-slide-to="5"></li>
+                      <li data-target="#carousel-marquee" data-slide-to="6"></li>
+                      <li data-target="#carousel-marquee" data-slide-to="7"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="item active">
+                        <img src="images/marquee/marquee1.jpg" alt="...">
+                      </div>
+                      <div class="item">
+                        <img src="images/marquee/marquee2.jpg" alt="...">
+                      </div>
+                      <div class="item">
+                        <img src="images/marquee/marquee3.jpg" alt="...">
+                      </div>
+                      <div class="item">
+                        <img src="images/marquee/marquee4.jpg" alt="...">
+                      </div>
+                      <div class="item">
+                        <img src="images/marquee/marquee5.jpg" alt="...">
+                      </div>
+                      <div class="item">
+                        <img src="images/marquee/marquee6.jpg" alt="...">
+                      </div>
+                      <div class="item">
+                        <img src="images/marquee/marquee7.jpg" alt="...">
+                      </div>
+                      <div class="item">
+                        <img src="images/marquee/marquee8.jpg" alt="...">
+                      </div>
+
+
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-marquee" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-marquee" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-
+        </div>
+        <div class="thumbnail-panel">
           <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             <div class="thumbnailContainer">
               <a class="thumbnail" href="#" id="reveal">
-                <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
+                <img class="img-responsive" src="images/marquee/marquee1.jpg" alt=""></a>
                 <div class="iconContainer">
-                  <i class="fa fa-facebook"></i>
-                  <i class="fa fa-heart-o"></i>
-                  <a id="reveal"><i class="fa fa-arrows-alt"></i></a>
+                  <i href="http://www.facebook.com/sharer/sharer.php?u=images/marquee/marquee1.jpg&title=Amanda's Bouquet" class="fa fa-facebook"></i>
                 </div>
               </div>
             </div>
@@ -146,11 +159,10 @@
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
               <div class="thumbnailContainer">
                 <a class="thumbnail" href="#" id="reveal">
-                  <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
+                  <img class="img-responsive" src="images/marquee/marquee2.jpg" alt=""></a>
                   <div class="iconContainer">
                     <i class="fa fa-facebook"></i>
-                    <i class="fa fa-heart-o"></i>
-                    <a id="reveal"><i class="fa fa-arrows-alt"></i></a>
+
                   </div>
                 </div>
               </div>
@@ -158,11 +170,10 @@
               <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <div class="thumbnailContainer">
                   <a class="thumbnail" href="#" id="reveal">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
+                    <img class="img-responsive" src="images/marquee/marquee3.jpg" alt=""></a>
                     <div class="iconContainer">
                       <i class="fa fa-facebook"></i>
-                      <i class="fa fa-heart-o"></i>
-                      <a id="reveal"><i class="fa fa-arrows-alt"></i></a>
+
                     </div>
                   </div>
                 </div>
@@ -170,11 +181,10 @@
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                   <div class="thumbnailContainer">
                     <a class="thumbnail" href="#" id="reveal">
-                      <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
+                      <img class="img-responsive" src="images/marquee/marquee4.jpg" alt=""></a>
                       <div class="iconContainer">
                         <i class="fa fa-facebook"></i>
-                        <i class="fa fa-heart-o"></i>
-                        <a id="reveal"><i class="fa fa-arrows-alt"></i></a>
+
                       </div>
                     </div>
                   </div>
@@ -182,147 +192,433 @@
                   <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                     <div class="thumbnailContainer">
                       <a class="thumbnail" href="#" id="reveal">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt=""></a>
+                        <img class="img-responsive" src="images/marquee/marquee5.jpg" alt=""></a>
                         <div class="iconContainer">
                           <i class="fa fa-facebook"></i>
-                          <i class="fa fa-heart-o"></i>
-                          <a id="reveal"><i class="fa fa-arrows-alt"></i></a>
+
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-12">
-                      <h1 class="page-header">Marquees</h1>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-12">
-                      <h1 class="page-header">Churches</h1>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
-                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                      <a class="thumbnail" href="#">
-                        <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                      </a>
-                    </div>
 
-                  </div>
-                </div>
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                      <div class="thumbnailContainer">
+                        <a class="thumbnail" href="#" id="reveal">
+                          <img class="img-responsive" src="images/marquee/marquee6.jpg" alt=""></a>
+                          <div class="iconContainer">
+                            <i class="fa fa-facebook"></i>
+
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                        <div class="thumbnailContainer">
+                          <a class="thumbnail" href="#" id="reveal">
+                            <img class="img-responsive" src="images/marquee/marquee7.jpg" alt=""></a>
+                            <div class="iconContainer">
+                              <i class="fa fa-facebook"></i>
+
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                          <div class="thumbnailContainer">
+                            <a class="thumbnail" href="#" id="reveal">
+                              <img class="img-responsive" src="images/marquee/marquee8.jpg" alt=""></a>
+                              <div class="iconContainer">
+                                <i class="fa fa-facebook"></i>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
 
 
 
-                <!-- /container -->
-                <footer class="footer">
-                  <div class="container">
-                   <div class="col-xs-6" id="contact">
-                    <p>Contact me to request a quote:</p>
-                    <p><strong>t:</strong>01572717757 </p>
-                    <p><a>amandapetal1@btinternet.com</a></p>
-                  </div>
-                  <div class="col-xs-6" id="social">       
-                   <ul class="list-inline">
-                    <li><a href="#">
-                      <span class="fa-stack fa-lg icon-facebook">
-                        <i class="fa fa-square fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x"></i>
-                      </span>
-                    </a></li>
-                    <li><a href="#">
-                      <span class="fa-stack fa-lg icon-twitter">
-                        <i class="fa fa-square fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x"></i>
-                      </span>
-                    </a></li>
-                    <li><a href="#">
-                      <span class="fa-stack fa-lg icon-gplus">
-                        <i class="fa fa-square fa-stack-2x"></i>
-                        <i class="fa fa-plus fa-stack-1x"></i>
-                      </span>
-                    </a></li>
-                  </ul>      
-                </div>
-              </div>
-            </footer>
+
+
+                      <!-- Section Two -->
+
+                      <div class="container">
+                        <a name="buttons"></a>
+                        <div class="panel panel-default" id="panel2">
+                          <div class="panel-heading">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            <h1 class="panel-title">
+                              Churches
+                              <i class="indicator glyphicon glyphicon-plus-sign  pull-right"></i>
+                            </h1>
+                            </a>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                              <div id="myCarousel" class="carousel slide">
+                                <div id="carousel">
+                                  <div id="carousel-church" class="carousel slide" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                      <li data-target="#carousel-church" data-slide-to="0" class="active"></li>
+                                      <li data-target="#carousel-church" data-slide-to="1"></li>
+                                      <li data-target="#carousel-church" data-slide-to="2"></li>
+                                      <li data-target="#carousel-church" data-slide-to="3"></li>
+                                      <li data-target="#carousel-church" data-slide-to="4"></li>
+                                      <li data-target="#carousel-church" data-slide-to="5"></li>
+                                      <li data-target="#carousel-church" data-slide-to="6"></li>
+                                      <li data-target="#carousel-church" data-slide-to="7"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                      <div class="item active">
+                                        <img src="images/church/church1.jpg" alt="...">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/church/church2.jpg" alt="...">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/church/church3.jpg" alt="...">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/church/church4.jpg" alt="...">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/church/church5.jpg" alt="...">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/church/church6.jpg" alt="...">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/church/church7.jpg" alt="...">
+                                      </div>
+                                      <div class="item">
+                                        <img src="images/church/church8.jpg" alt="...">
+                                      </div>
+
+
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#carousel-church" role="button" data-slide="prev">
+                                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                      <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel-church" role="button" data-slide="next">
+                                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                      <span class="sr-only">Next</span>
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="thumbnail-panel">
+                          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                            <div class="thumbnailContainer">
+                              <a class="thumbnail" href="#" id="reveal">
+                                <img class="img-responsive" src="images/church/church1.jpg" alt=""></a>
+                                <div class="iconContainer">
+                                  <i class="fa fa-facebook"></i>
+
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                              <div class="thumbnailContainer">
+                                <a class="thumbnail" href="#" id="reveal">
+                                  <img class="img-responsive" src="images/church/church2.jpg" alt=""></a>
+                                  <div class="iconContainer">
+                                    <i class="fa fa-facebook"></i>
+
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                <div class="thumbnailContainer">
+                                  <a class="thumbnail" href="#" id="reveal">
+                                    <img class="img-responsive" src="images/church/church3.jpg" alt=""></a>
+                                    <div class="iconContainer">
+                                      <i class="fa fa-facebook"></i>
+
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                  <div class="thumbnailContainer">
+                                    <a class="thumbnail" href="#" id="reveal">
+                                      <img class="img-responsive" src="images/church/church4.jpg" alt=""></a>
+                                      <div class="iconContainer">
+                                        <i class="fa fa-facebook"></i>
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                    <div class="thumbnailContainer">
+                                      <a class="thumbnail" href="#" id="reveal">
+                                        <img class="img-responsive" src="images/church/church5.jpg" alt=""></a>
+                                        <div class="iconContainer">
+                                          <i class="fa fa-facebook"></i>
+
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                      <div class="thumbnailContainer">
+                                        <a class="thumbnail" href="#" id="reveal">
+                                          <img class="img-responsive" src="images/church/church6.jpg" alt=""></a>
+                                          <div class="iconContainer">
+                                            <i class="fa fa-facebook"></i>
+
+                                          </div>
+                                        </div>
+                                      </div>
+
+                                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                        <div class="thumbnailContainer">
+                                          <a class="thumbnail" href="#" id="reveal">
+                                            <img class="img-responsive" src="images/church/church7.jpg" alt=""></a>
+                                            <div class="iconContainer">
+                                              <i class="fa fa-facebook"></i>
+
+                                            </div>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                          <div class="thumbnailContainer">
+                                            <a class="thumbnail" href="#" id="reveal">
+                                              <img class="img-responsive" src="images/church/church8.jpg" alt=""></a>
+                                              <div class="iconContainer">
+                                                <i class="fa fa-facebook"></i>
+
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+
+
+
+
+                                      <!-- Section Three -->
+
+                                      <div class="container">
+
+                                        <div class="panel panel-default" id="panel3">
+                                          <div class="panel-heading">
+                                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                            <h1 class="panel-title">
+                                              Reception
+                                              <i class="indicator glyphicon glyphicon-plus-sign  pull-right"></i>
+                                            </h1>
+                                            </a>
+                                          </div>
+                                          <div id="collapseThree" class="panel-collapse collapse">
+                                            <div class="panel-body">
+                                              <div id="myCarousel" class="carousel slide">
+                                                <div id="carousel">
+                                                  <div id="carousel-reception" class="carousel slide" data-ride="carousel">
+                                                    <!-- Indicators -->
+                                                    <ol class="carousel-indicators">
+                                                      <li data-target="#carousel-reception" data-slide-to="0" class="active"></li>
+                                                      <li data-target="#carousel-reception" data-slide-to="1"></li>
+                                                      <li data-target="#carousel-reception" data-slide-to="2"></li>
+                                                      <li data-target="#carousel-reception" data-slide-to="3"></li>
+                                                      <li data-target="#carousel-reception" data-slide-to="4"></li>
+                                                      <li data-target="#carousel-reception" data-slide-to="5"></li>
+                                                      <li data-target="#carousel-reception" data-slide-to="6"></li>
+                                                      <li data-target="#carousel-reception" data-slide-to="7"></li>
+                                                    </ol>
+
+                                                    <!-- Wrapper for slides -->
+                                                    <div class="carousel-inner" role="listbox">
+                                                      <div class="item active">
+                                                        <img src="images/reception/reception1.jpg" alt="...">
+                                                      </div>
+                                                      <div class="item">
+                                                        <img src="images/reception/reception2.jpg" alt="...">
+                                                      </div>
+                                                      <div class="item">
+                                                        <img src="images/reception/reception3.jpg" alt="...">
+                                                      </div>
+                                                      <div class="item">
+                                                        <img src="images/reception/reception4.jpg" alt="...">
+                                                      </div>
+                                                      <div class="item">
+                                                        <img src="images/reception/reception5.jpg" alt="...">
+                                                      </div>
+                                                      <div class="item">
+                                                        <img src="images/reception/reception6.jpg" alt="...">
+                                                      </div>
+                                                      <div class="item">
+                                                        <img src="images/reception/reception7.jpg" alt="...">
+                                                      </div>
+                                                      <div class="item">
+                                                        <img src="images/reception/reception8.jpg" alt="...">
+                                                      </div>
+
+
+                                                    </div>
+
+                                                    <!-- Controls -->
+                                                    <a class="left carousel-control" href="#carousel-reception" role="button" data-slide="prev">
+                                                      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                                      <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="right carousel-control" href="#carousel-reception" role="button" data-slide="next">
+                                                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                                      <span class="sr-only">Next</span>
+                                                    </a>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <div class="thumbnail-panel">
+                                          <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <div class="thumbnailContainer">
+                                              <a class="thumbnail" href="#" id="reveal">
+                                                <img class="img-responsive" src="images/reception/reception1.jpg" alt=""></a>
+                                                <div class="iconContainer">
+                                                  <i class="fa fa-facebook"></i>
+
+                                                </div>
+                                              </div>
+                                            </div>
+
+                                            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                              <div class="thumbnailContainer">
+                                                <a class="thumbnail" href="#" id="reveal">
+                                                  <img class="img-responsive" src="images/reception/reception2.jpg" alt=""></a>
+                                                  <div class="iconContainer">
+                                                    <i class="fa fa-facebook"></i>
+
+                                                  </div>
+                                                </div>
+                                              </div>
+
+                                              <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                                <div class="thumbnailContainer">
+                                                  <a class="thumbnail" href="#" id="reveal">
+                                                    <img class="img-responsive" src="images/reception/reception3.jpg" alt=""></a>
+                                                    <div class="iconContainer">
+                                                      <i class="fa fa-facebook"></i>
+
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                                                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                                  <div class="thumbnailContainer">
+                                                    <a class="thumbnail" href="#" id="reveal">
+                                                      <img class="img-responsive" src="images/reception/reception4.jpg" alt=""></a>
+                                                      <div class="iconContainer">
+                                                        <i class="fa fa-facebook"></i>
+
+                                                      </div>
+                                                    </div>
+                                                  </div>
+
+                                                  <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                                    <div class="thumbnailContainer">
+                                                      <a class="thumbnail" href="#" id="reveal">
+                                                        <img class="img-responsive" src="images/reception/reception5.jpg" alt=""></a>
+                                                        <div class="iconContainer">
+                                                          <i class="fa fa-facebook"></i>
+
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+                                                    <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                                      <div class="thumbnailContainer">
+                                                        <a class="thumbnail" href="#" id="reveal">
+                                                          <img class="img-responsive" src="images/reception/reception6.jpg" alt=""></a>
+                                                          <div class="iconContainer">
+                                                            <i class="fa fa-facebook"></i>
+
+                                                          </div>
+                                                        </div>
+                                                      </div>
+
+                                                      <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                                        <div class="thumbnailContainer">
+                                                          <a class="thumbnail" href="#" id="reveal">
+                                                            <img class="img-responsive" src="images/reception/reception7.jpg" alt=""></a>
+                                                            <div class="iconContainer">
+                                                              <i class="fa fa-facebook"></i>
+
+                                                            </div>
+                                                          </div>
+                                                        </div>
+
+                                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                                          <div class="thumbnailContainer">
+                                                            <a class="thumbnail" href="#" id="reveal">
+                                                              <img class="img-responsive" src="images/reception/reception8.jpg" alt=""></a>
+                                                              <div class="iconContainer">
+                                                                <i class="fa fa-facebook"></i>
+
+                                                              </div>
+                                                            </div>
+                                                          </div>
+                                                        </div>
+                                                      </div>
+                                                    </div>
+
+
+                                                    <!-- /container -->
+                                                    <footer class="footer">
+                                                      <div class="container">
+                                                       <div class="col-xs-6" id="contact">
+                                                        <p>Contact me to request a quote:</p>
+                                                        <p><strong>t:</strong>01572717757 </p>
+                                                        <p><a href="mailto:amandapetal@petal1@btinternet.com">amandapetal1@btinternet.com</a></p>
+                                                      </div>
+                                                      <div class="col-xs-6" id="social">       
+                                                       <ul class="list-inline">
+                                                        <li><a href="https://www.facebook.com/amandasteeleflorist/?fref=ts">
+                                                          <span class="fa-stack fa-lg icon-facebook">
+                                                            <i class="fa fa-square fa-stack-2x"></i>
+                                                            <i class="fa fa-facebook fa-stack-1x"></i>
+                                                          </span>
+                                                        </a></li>
+                                                        <li><a href="https://www.instagram.com/amandasteeleflowers/">
+                                                          <span class="fa-stack fa-lg icon-instagram">
+                                                            <i class="fa fa-square fa-stack-2x"></i>
+                                                            <i class="fa fa-instagram fa-stack-1x"></i>
+                                                          </span>
+                                                        </a></li>
+                                                        <li><a href="mailto:amandapetal@petal1@btinternet.com">
+                                                          <span class="fa-stack fa-lg icon-inbox">
+                                                            <i class="fa fa-square fa-stack-2x"></i>
+                                                            <i class="fa fa-inbox fa-stack-1x"></i>
+                                                          </span>
+                                                        </a></li>
+                                                      </ul>      
+                                                    </div>
+                                                  </div>
+                                                </footer>
+
 
 
 
       <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+      ================================================== -->
+      <!-- Placed at the end of the document so the pages load faster -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/add-on.js"></script>
 
     </body>
     </html>
