@@ -5,15 +5,16 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
-  .nav .nav-justified .col-md-6 {
-    visibility: hidden;
-    clear: both;
-  }
-  .nav-justified {
-  	text-align: left;
-  }
-  .navbar .nav li {
-  	padding: 5px;
-  }
+@media screen and (max-width: 996px) {
+	.nav .nav-justified .col-md-6 {
+		visibility: hidden;
+		clear: both;
+	}
+	.nav-justified {
+		text-align: left;
+	}
+	.navbar .nav li {
+		padding: 5px;
+	}
 }
+

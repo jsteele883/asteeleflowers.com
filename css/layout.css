@@ -219,8 +219,8 @@ body {
 }
 
 .btn-info {
-  background-color:#fff;
-  border:none;
+ background-color:#fff;
+ border:none;
 }
 
 .col-md-4:hover img {
@@ -280,6 +280,8 @@ body {
 
 
 /* Carousel */
+
+
 .carousel-linked-nav,
 .item img {
    display: block; 
@@ -292,7 +294,7 @@ body {
 }
 
 .carousel-inner {
-   height: 480px;
+   height: auto;
 }
 
 .carousel-control.right, .carousel-control.left  {
@@ -323,7 +325,7 @@ body {
 }
 
 #carousel {
-   height: 480px;
+   height: auto;
 }
 /*pop-out-carousel*/
 
@@ -337,15 +339,39 @@ body {
 
 .panel-default>.panel-heading+.panel-collapse>.panel-body {
    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+53,1+100 */
-background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 53%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 53%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 53%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+   background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 53%, rgba(0,0,0,1) 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 53%,rgba(0,0,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 53%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 ); /* IE6-9 */
+}
 
+
+
+.accordion-toggle {
+  color: #333;
+  background-color: rgba(221, 221, 221,0.3);
+  border: none;
+  transition: all 0.3s ease;
+}
+.panel-default>.panel-heading {
+  background-color: rgba(221, 221, 221,0.3);
+  border: none;
 }
 
 .panel-title {
    text-align: center;
+}
+
+.panel-default>.panel-heading a {
+   text-decoration: none;
+}
+
+.accordion-toggle:hover {
+   color: #ffffff;
+}
+
+.thumbnail-panel {
+   padding-top: 10px;
 }
 
 /* ------------------------------------------------------------------ */
@@ -386,12 +412,11 @@ form {
 
 /* Custom container */
 .footer-container {
-  
+
 }
 .container > hr {
    margin: 0 auto;
 }
-
 
 
 #social {
@@ -407,19 +432,5 @@ form {
    color: #00A299;
 } 
 
-.icon-facebook {
- color:#00A299;
-}
 
-.icon-facebook:hover,.icon-twitter:hover, .icon-gplus:hover {
- color:#ffffff;
-}
-
-.icon-twitter {
-  color:#B1DEFF;
-}
-
-.icon-gplus{
-  color:#FD7D75;
-}
 
