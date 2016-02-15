@@ -89,7 +89,14 @@
 
   <div class="body">
     <div class="container">
-    <form role="form" action="" method="post" >
+    <div class="success-bar" id="success">
+     <div class="col-md-12">
+      <!--small><i></i>Add alerts if form ok... success, else error.</i></small-->
+      <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent. (If form ok!)</strong></div>
+      </div>   
+    </div>
+
+    
       <div class="col-lg-6" id="form-column">
         <div class="row"  id="contact-form">
           <h3>Do get in touch with any questions that you may have and I will get back to you as soon as I can.</h3>
@@ -113,10 +120,10 @@
             <label for="exampleTextarea">Get in touch:</label>
             <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
           </fieldset>
-          <button type="submit" class="btn btn-primary" value="Send">Submit</button>
+          <button type="submit" class="btn btn-primary" value="Send" id="form-submit">Submit</button>
+        </form>
         </div>
       </div>
-    </form>
     <hr class="featurette-divider hidden-lg">
     <div class="col-lg-5 col-md-push-1" id="facebook-feed">
       <div class="fb-page" data-href="https://www.facebook.com/amandasteeleflorist" data-tabs="timeline" data-width="380" data-height="600" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/amandasteeleflorist"><a href="https://www.facebook.com/amandasteeleflorist">Amanda Steele Flowers</a></blockquote></div>
@@ -160,6 +167,13 @@
 </div>
 </div>
 </footer>
+<script>
+$(document).ready(function(){
+$( ".btn-primary" ).click(function() {
+$("#success").removeClass(".success-bar");
+});
+});
+</script>
 
 
 
@@ -169,6 +183,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/add-on.js"></script>
 
   </body>
   </html>
