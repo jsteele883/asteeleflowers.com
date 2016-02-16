@@ -223,7 +223,7 @@ body {
  border:none;
 }
 
-.col-md-4:hover img {
+#main-images:hover img {
    opacity: 0.4;
    filter: alpha(opacity=40);
 }
@@ -243,6 +243,10 @@ body {
 /* ------------------------------------------------------------------ */
 
 /* Thumbnail */
+
+.thumbnail {
+   background: #fafafa;
+}
 
 .thumbnailContainer {
    position: relative;
