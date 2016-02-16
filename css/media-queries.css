@@ -25,4 +25,7 @@
 	.btn {
 		width: 80%;
 	}
+	.nav-justified {
+		background: rgba(255,255,255,0.8);
+	}
 }
