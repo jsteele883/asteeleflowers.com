@@ -106,7 +106,12 @@
 
   <div class="body">
     <div class="container" style="padding-bottom: 10px;">
-    
+    <div class="success-bar" id="success">
+     <div class="col-md-12">
+      <!--small><i></i>Add alerts if form ok... success, else error.</i></small-->
+      <div class="alert alert-success"><strong><span class="glyphicon glyphicon-send"></span> Success! Message sent.</strong></div>
+      </div>   
+    </div>
 
     
       <div class="col-lg-6" id="form-column">
@@ -133,7 +138,7 @@
             <textarea name="message" class="form-control" id="exampleTextarea" rows="3"></textarea>
           </fieldset>
           <input type="hidden" name="_next">
-          <input type="submit" class="btn btn-primary" value="Send" id="form-submit" value="form-submission.html">
+          <input type="submit" class="btn btn-primary" value="Send" id="form-submit">
         </form>
         </div>
       </div>
@@ -180,7 +185,6 @@
 </div>
 </div>
 </footer>
-
 
 
 
