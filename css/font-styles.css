@@ -6,7 +6,7 @@ h1 {
 }
 
 h3 {
-  color:#38b9bd;
+  color:#5f6062;
   font-weight:normal;
   font-family: 'alegreyaregular', Arial, Serif;
   font-size: 2.1em;
@@ -69,15 +69,22 @@ h3 {
   text-transform: uppercase;
 }
 
-
+.btn-info:hover {
+  background-color: #ffffff;
+  color: #5f6062;
+}
 
 p {
   color:#5f6062;
   font-family: 'alegreyaregular', Arial, Serif;
 }
 
+#biography a {
+  text-decoration: underline;
+}
+
 a {
-  color: #7cccd2;
+  color: #5f6062;
 }
 
 #bio p {
