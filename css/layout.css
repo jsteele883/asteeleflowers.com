@@ -93,6 +93,7 @@ body {
    color: #5f6062;
    transition: all 0.3s ease;
    font-size: 1.0em;
+   text-decoration: none;
 }
 
 .navbar .nav li a .active {
@@ -201,8 +202,6 @@ body {
 .col-md-4 img {
    width: 100%;
    padding-bottom: 10px;
-   -webkit-transition: all .3s ease-in-out;
-   transition: all .3s ease-in-out;
 }
 
 
@@ -221,17 +220,6 @@ body {
 .btn-info {
  background-color:#fff;
  border:none;
-}
-
-#main-images:hover img {
-   opacity: 0.4;
-   filter: alpha(opacity=40);
-}
-
-.col-md-4:hover .btn-info, .col-md-4:hover #button1, .col-md-4:hover #button2, .col-md-4:hover #button3{
-
-   background-color: #7cccd2;
-   color: #ddd;
 }
 
 #bio {
@@ -279,8 +267,6 @@ body {
 .thumbnail {
    border: 1px solid #dddddd;
 }
-
-
 
 
 /* Carousel */
@@ -358,7 +344,7 @@ body {
   transition: all 0.3s ease;
 }
 .panel-default>.panel-heading {
-  background-color: rgba(221, 221, 221,0.5);
+  background-color: #ffffff;
   border: none;
 }
 
@@ -411,7 +397,7 @@ form {
 }
 
 .btn {
-   background-color: #7cccd2;
+   background-color: #93b0ac;
    border-radius: 0px;
    color:#ffffff; 
    font-family: 'alegreyaregular', Arial, Serif;
@@ -430,7 +416,6 @@ form {
    width: 100%;
    height: 110px;
    background-color: #ffffff;
-   border-top: solid 3px #00A299;
 }
 
 .footer .container {
